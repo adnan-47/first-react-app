@@ -2,7 +2,7 @@
 
 export const Pricing = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-white">
     <div className="container">
       <div className="section-heading">
       <h2 className="section-title">How to use</h2>
@@ -21,7 +21,14 @@ export const Pricing = () => {
   git clone https://github.com/adnan-47/dotfiles.git
 </code>
   </div>
+  
 </div>
+<div className="section-heading">
+<p className="section-description mt-20">
+  Revolutionize the Way You Work—One Tool Unlimited Possibilities
+</p>
+</div>
+
 </div>
 
 

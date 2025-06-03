@@ -15,7 +15,7 @@ export const ProductShowcase = () => {
         <h2 className='section-title mt-5'>
           The next level look for your powershell terminal</h2>
         <p className='section-description mt-5'>Effortlessly turn your powershell terminal into a beautiful
-          one.Boost yur productivity by using history function </p>
+          one.Boost your productivity by using history function </p>
           </div>
           <div className='relative'>
           <Image src={product} alt='Product Image' className='mt-10' />
