@@ -23,15 +23,60 @@ export const Pricing = () => {
   </div>
   
 </div>
+
+<div className="section heading">
+  <div className="flex justify-center mt-10">
+<div className=" tag">Features</div>
+</div>
+</div>
 <div className="section-heading">
-<p className="section-description mt-20">
+<p className="section-description mt-5">
   Revolutionize the Way You Work—One Tool Unlimited Possibilities
 </p>
 </div>
 
+<div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
+
+
+<div className="feature md:col-span-2 lg:col-span-1">
+  <div></div>
+  <div>
+    <h2 className="feature-title mt-6">Beautiful themes </h2>
+    <p className="feature-description mt-2">Turn your powershell terminal into appealing using next level themes</p>
+  </div>
 </div>
 
+<div className="feature md:col-span-2 lg:col-span-1">
+  <div></div>
+  <div>
+    <h2 className="feature-title mt-6">History function </h2>
+    <p className="feature-description mt-2">Boost your productivity using history function</p>
+  </div>
+</div>
 
+<div className="feature md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto">
+  <div></div>
+  <div>
+    <h2 className="feature-title mt-6">Verity collection of icons </h2>
+    <p className="feature-description mt-2">turn the terminal more good with the help of icons</p>
+  </div>
+</div>
+
+</div>
+ 
+
+  
+
+  
+
+
+
+
+
+
+
+
+</div>
   </section>
   );
 };

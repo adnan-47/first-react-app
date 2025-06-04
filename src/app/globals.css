@@ -32,6 +32,14 @@
 .card{
     @apply py-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] max-w-xs w-full;
 }
-
+.feature-title{
+    @apply text-3xl font-medium text-center  tracking-tighter bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text;
+}
+.feature-description{
+    @apply text-black/70 text-center ;
+}
+.feature{
+    @apply bg-white border border-[#0058f3]/30 p-6 rounded-3xl;
+}
 
 }
