@@ -6,8 +6,8 @@ import clsx from "clsx";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Light Saas Landing Page",
-  description: "Template created by Frontend Tribe",
+  title: "Ultimate Powershell customization tool ",
+  description: "the most wanted clit ool for the powershell",
 };
 
 export default function RootLayout({
