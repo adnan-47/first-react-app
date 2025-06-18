@@ -25,12 +25,12 @@ export const CallToAction = () => {
       <p className="section-description mt-5">
       Boost your workflow with the tool and turn powershell into a professional tool 
       </p>
-      <motion.img src={starImage.src} alt="star Image" width={360} className="absolute -left-[350px] -top-[137px]"
+      <motion.img src={starImage.src} alt="star Image" width={360} className="absolute -left-[350px] -top-[137px] sm:hidden md:block"
       style={{
         translateY,
       }}
       />
-      <motion.img src={springImage.src} alt="spring Image " width={360} className="absolute -right-[331px] -top-[90px]" 
+      <motion.img src={springImage.src} alt="spring Image " width={360} className="absolute -right-[331px] -top-[90px] sm:hidden md:block" 
        style={{
         translateY,
       }}
