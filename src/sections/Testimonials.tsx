@@ -105,8 +105,8 @@ const TestimonialsColumn = (props: {className?: string;
           {[...new Array(2)].fill(0).map((_,index)=>
           <React.Fragment key={index}>
 
-            {props.testimonials.map(({ text, imageSrc, name, username}) => (
-            <div className="card">
+            {props.testimonials.map(({ text, imageSrc, name, username}, i) => (
+            <div className="card" key={username + i}>
           <div className="ml-5">{text}</div>
           <div className="flex items-center gap-2 mt-5 ml-5">
             <Image src={imageSrc} alt={name} width={40} height={40} className="h-10 w-10 rounded-full" 
